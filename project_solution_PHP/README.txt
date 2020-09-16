@@ -1,8 +1,6 @@
-**************Internshala VTC Web Development Project Solution*************************************************
+**************Internshala Web Development Project Solution*************************************************
 
 DESCRIPTION: This is the solution to the e-commerce website 
-
-Extract the files from project_solution.zip.
 
 _____________________________________________Folder Structure__________________________________________________
 	
@@ -32,7 +30,7 @@ _____________________________________________Folder Structure___________________
 	├──  cart-remove.php
 	├──  cart.php 
 	├──  index.php
-	├──  lifestylestore.sql (Database of the project	)
+	├──  lifestylestore.sql (Database of the project)
 	├──  login.php
 	├──  login_script.php
 	├──  logout_script.php
@@ -44,20 +42,8 @@ _____________________________________________Folder Structure___________________
 	└──  success.php
 
 ____________________________________________SETUP_________________________________________________________________________________________				
-1.) Start the Apache and MySQL modules using the XAMPP controller.
+1.) Start the Apache and MySQL modules using the WAMPP controller.
 2.) Open the phpMyAdmin and create a database "lifestylestore". 
 3.) Import the lifestylestore.sql file present in the zip folder.
 4.) Open the htdocs folder in the xampp folder. Copy paste the folder lifestylestore.
 5.) Open the browser (chrome), type localhost/lifestylestore and you should see the index page of the website.
-
-*******************************************************************************************************************************************
-CONTACT: vtc-support@internshala.com
-WEBSITE: www.vtc.internshala.com
-
-*******************************************************************************************************************************************
-LICENSE AND COPYRIGHT: All the images used for this project are representational images.
-Internshala holds no copyright over these images.
-TRADEMARKS:
-1.)The trademarks of the brands belong to the respective brands and Internshala does not trademark violations.
-2.)"Lifestyle" and "Lifestyle store" are not registered trademarks of Internshala nor it holds any copyright over the use of these words.
-
