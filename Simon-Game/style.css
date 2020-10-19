@@ -1,0 +1,124 @@
+body{
+  background-image: url(./bg.jpg);
+  margin: 0;
+}
+#footer{
+  width: 100%;
+  padding: 10px 0px 0px 0px;
+  margin: 0px 0px 0px 0px;
+  height: 30px;
+  background: lightblue;
+  bottom: 0;
+  position: absolute;
+  text-align: center;
+}
+#outer-circle{
+  width: 0 auto;
+  height: 0 auto;
+  top: 25%;
+  left:40%;
+  background-color: black;
+  border-radius: 50%;
+  position: absolute;
+  display: grid;
+}
+#topleft{
+  height: 145px;
+  width: 145px;
+  border-radius:320px 20px 20px 20px;
+  background: red;
+  grid-row: 1;
+  grid-column: 1;
+  border-style: solid;
+  border-width: thick;
+}
+#topright{
+  height: 145px;
+  width: 145px;
+  border-radius:20px 320px 20px 20px;
+  background: green;
+  grid-row: 1;
+  grid-column: 2;
+  border-style: solid;
+  border-width: thick;
+}
+#bottomleft{
+  height: 145px;
+  width: 145px;
+  border-radius:50px 50px 50px 400px ;
+  background: blue;
+  grid-row: 2;
+  grid-column: 1;
+  border-style: solid;
+  border-width: thick;
+}
+#bottomright{
+  height: 145px;
+  width: 145px;
+  border-radius:20px 20px 320px 20px;
+  background: yellow;
+  grid-row: 2;
+  grid-column: 2;
+  border: black;
+  border-style: solid;
+  border-width: thick;
+}
+#inner-circle{
+  width: 180px;
+  height: 180px;
+  background-color: #FFFFFF;
+  border-radius: 50%;
+  top: 20%;
+  left:20%;
+  position: absolute;
+  border-style: solid;
+  border-width: thick;
+  text-align: center;
+}
+#title{
+  margin: 30px 30px 10px 30px;
+  font-size: 24px;
+}
+#power{
+  margin-right: 20px;
+}
+#on{
+  margin-right: 10px;
+}
+#strict{
+  margin-left: 10px;
+}
+.text1{
+  margin-top: 12px;
+}
+.button {
+  padding: 7px 15px;
+  font-size: 20px;
+  text-align: center;
+  color: #fff;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 5px grey;
+}
+
+.btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+.btn-animated {
+    animation: moveInBottom 3s ease-out;
+    animation-fill-mode: backwards;
+}
+
+@keyframes moveInBottom {
+    0% {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}

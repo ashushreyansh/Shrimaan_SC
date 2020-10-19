@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>SIMON SAYS!</title>
+    <link rel="stylesheet" type="text/css" href="./style.css">
+  </head>
+  <body>
+
+    <audio id="clip1">
+      <source src="./music/a.mp3"></source>
+    </audio>
+    <audio id="clip2">
+      <source src="./music/b.mp3"></source>
+    </audio>
+    <audio id="clip3">
+      <source src="./music/c.mp3"></source>
+    </audio>
+    <audio id="clip4">
+      <source src="./music/d.mp3"></source>
+    </audio>
+
+    <div id="outer-circle">
+      <div id="topleft"class="btn btn-animated"></div>
+      <div id="topright" class="btn btn-animated"></div>
+      <div id="bottomleft" class="btn btn-animated"></div>
+      <div id="bottomright" class="btn btn-animated"></div>
+      <div id="inner-circle">
+        <div id="title" class="font-effect-emboss">SIMON!</div>
+        <div id="switches">
+          <input type="checkbox" class="toggle" id="on">
+          <button class="button btn" id="start">START</button>
+          <input type="checkbox" class="toggle" id="strict">
+        </div>
+        <div class="text1">
+          <span id="power">POWER</span>
+          <span id="strict">STRICT</span>
+        </div>
+        <div id="turn"></div>
+        <div class="text2">COUNT</div>
+      </div>
+    </div>
+    <footer id="footer">Created by shreyansh chaurasia (Contact : ashushreyansh@gmail.com || <a href="https://github.com/ashushreyansh" target="_blank">Github</a>)</footer>
+
+    <script type="text/javascript" src="./index.js"></script>
+  </body>
+</html>
